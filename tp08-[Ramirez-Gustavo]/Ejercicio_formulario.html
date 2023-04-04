@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post" action="" name="form1" id="id_formulario1">
+        <h2>Completar formulario HTML</h1>
+
+        <label for="id_apellido">Apellido</label>
+        <input type="text" name="apellido" id="id_apellido" value=""> 
+        <br> <br>
+        <label for="id_nombre">Nombre</label>
+        <input type="text" name="nombre" id="id_nombre" value="">
+        <br> <br>
+        <label for="id_edad">Edad</label>
+        <input type="text" name="edad" id="id_edad" value="">
+        <br><br>
+
+        <label for="id_sexo">Eliga su sexo</label>
+        <select name="sexo" id="id_sexo">
+            <option >Masculino</option>
+            <option >Femenino</option>
+            <option >Otro</option>
+        </select>
+        <br> <br>
+        <input type="radio" name="edad" value="menor"> Menor a 18 años
+        <input type="radio" name="edad" value="mayor"> Mayor a 18 años
+        <br> <br>
+
+        <label for="id_idiomas">Eliga el idioma</label> <br>
+        <select size="3" name="idiomas" id="id_idioma"> Idiomas
+            <option value="ingles">Ingles</option>
+            <option value="frances">Frances</option>
+            <option value="aleman">Aleman</option>
+            <option value="holandes">Holandes</option>
+        </select>
+        <br> <br>
+        <input type="checkbox" name="extras[]" value="auto">Auto
+        <input type="checkbox" name="extras[]" value="camioneta">Camioneta
+        <input type="checkbox" name="extras[]" value="camion">Camion
+
+        <br><br>
+        <textarea name="comentario" id="" cols="30" rows="4">Esto es un comentario...
+        </textarea>
+
+        <br> <br>
+        <input type="button" name="datos" value="Enviar datos"> 
+
+    </form>
+    
+</body>
+</html>
